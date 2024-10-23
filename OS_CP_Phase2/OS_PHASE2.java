@@ -440,7 +440,7 @@ public class OS_PHASE2 {
                 error = "Time Limit Exceeded";
                 break;
             case 4:
-                error = "Operation Code Error";
+                error = "Opcode Error";
                 break;
             case 5:
                 error = "Operand Error";
@@ -452,7 +452,7 @@ public class OS_PHASE2 {
                 error = "Time Limit Exceed + Operand Error";
                 break;
             case 8:
-                error = "Time Limit Exceed + Operation Code Error";
+                error = "Time Limit Exceed + Opcode Error";
                 break;
             default:
                 System.out.println("Invalide Error Message");
